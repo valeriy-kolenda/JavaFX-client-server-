@@ -1,0 +1,16 @@
+
+AnchorPane{
+    -fx-background-image: url("pictures/science-1182713_1280.jpg");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.btn{
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition:-fx-background-color 5s;
+}
+
+.btn:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+
+}

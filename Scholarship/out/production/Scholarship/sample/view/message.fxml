@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" stylesheets="@../styles/login.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MessageController">
+    <children>
+        <ImageView fx:id="backButton" fitHeight="102.0" fitWidth="195.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../styles/pictures/left.png" />
+            </image>
+        </ImageView>
+      <TextArea fx:id="messageArea" layoutX="142.0" layoutY="179.0" prefHeight="142.0" prefWidth="416.0" style="-fx-background-color: black;" />
+    </children>
+</AnchorPane>

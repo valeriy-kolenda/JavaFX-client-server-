@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.EditController">
+    <children>
+        <Button fx:id="editButton" layoutX="247.0" layoutY="230.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="146.0" styleClass="btn" text="Изменить">
+         <font>
+            <Font size="21.0" />
+         </font>
+        </Button>
+        <TextField fx:id="loginField" layoutX="22.0" layoutY="234.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите Логин">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="passwordField" layoutX="22.0" layoutY="289.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите Пароль">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </PasswordField>
+        <TextField fx:id="nameField" layoutX="22.0" layoutY="22.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите Имя">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="surnameField" layoutX="22.0" layoutY="72.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите Фамилию">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="ageField" layoutX="22.0" layoutY="126.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите Возраст">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="courseField" layoutX="22.0" layoutY="182.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите курс">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="idpaymentsField" layoutX="220.0" layoutY="22.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите  Взносы">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="idprivilField" layoutX="220.0" layoutY="72.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите  Льготы">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="iddormitoryField" layoutX="220.0" layoutY="126.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите  № общаги">
+            <font>
+                <Font name="Neucha" size="18.0" />
+            </font>
+        </TextField>
+      <Button fx:id="cancelButton" layoutX="247.0" layoutY="284.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="146.0" styleClass="btn" text="Отмена">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="idmarkField" layoutX="220.0" layoutY="182.0" prefHeight="40.0" prefWidth="180.0" promptText="Введите  Оценку">
+         <font>
+            <Font name="Neucha" size="18.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

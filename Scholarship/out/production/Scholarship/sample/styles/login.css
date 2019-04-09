@@ -1,0 +1,19 @@
+AnchorPane{
+    -fx-background-image: url("pictures/fon1.jpg");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+}
+
+TextField, PasswordField{
+    -fx-border-color: black;
+}
+
+.btn{
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition:-fx-background-color 5s;
+}
+
+.btn:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+}

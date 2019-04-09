@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="691.0" stylesheets="@../styles/login.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.DeleteController">
+    <children>
+        <ImageView fx:id="backButton" fitHeight="102.0" fitWidth="195.0" layoutX="8.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../styles/pictures/left.png" />
+            </image>
+        </ImageView>
+      <TableView fx:id="Table" layoutX="-3.0" prefHeight="244.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="58.0" text="Имя" />
+          <TableColumn fx:id="surnameColumn" prefWidth="84.0" text="Фамилия" />
+            <TableColumn fx:id="ageColumn" prefWidth="59.0" text="Возраст" />
+            <TableColumn fx:id="courseColumn" prefWidth="34.0" text="Курс" />
+            <TableColumn fx:id="loginColumn" prefWidth="70.0" text="Логин" />
+            <TableColumn fx:id="passwordColumn" prefWidth="75.0" text="Пароль" />
+            <TableColumn fx:id="paymentsColumn" prefWidth="67.0" text="Выплаты" />
+            <TableColumn fx:id="privilColumn" prefWidth="57.0" text="Льготы" />
+            <TableColumn fx:id="dormitoryColumn" prefWidth="43.0" text="Общ" />
+            <TableColumn fx:id="markColumn" prefWidth="61.0" text="Оценка" />
+            <TableColumn fx:id="scholarshipColumn" prefWidth="89.0" text="Стипендия" />
+        </columns>
+      </TableView>
+      <Button fx:id="deleteButton" layoutX="98.0" layoutY="311.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="158.0" styleClass="btn" text="Удалить" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="printButton" layoutX="420.0" layoutY="311.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="158.0" styleClass="btn" text="Отчет" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
